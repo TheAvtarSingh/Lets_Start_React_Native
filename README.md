@@ -49,3 +49,9 @@ export default function App() {
 ```
 ![image](https://user-images.githubusercontent.com/88712571/230965748-0b0a76db-44fb-46d9-a4bc-808434f4ae78.png)
 
+
+  **Branch - Components - Functions with capital name (Code reusable)**
+
+
+1. _Function Based_
+2. _Class Based_
