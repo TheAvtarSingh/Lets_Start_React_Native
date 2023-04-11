@@ -72,5 +72,35 @@ export default function App() {
 Output :
 ![image](https://user-images.githubusercontent.com/88712571/231078913-7104aa0c-5838-4b72-b41a-17e701b17e30.png)
 
+
   **Branch - States - SetState vs Variables - See app.js in States**
   
+![image](https://user-images.githubusercontent.com/88712571/231215973-68d2e778-5bbd-4f46-92d2-62a56bb425a8.png)
+![image](https://user-images.githubusercontent.com/88712571/231216012-85070499-5c3f-4c16-a5d2-e6eb320d82df.png)
+![image](https://user-images.githubusercontent.com/88712571/231216070-eed84c3b-21e8-4f26-a426-1f5469084df8.png)
+
+  **Branch - States And Props - See app.js in States**
+  **Difference etween states and props**
+  _We want to send data between two or more components_
+
+_Passing from App Components_
+    `<Button title="Update Name" onPress={()=>setName("Singh")}></Button>`
+    `<Details name={name}></Details>`
+
+ _Getting Data_
+
+```
+const Details = (props)=>{
+  return (
+    <View>
+      <Text>Passed By : {props.name}</Text>
+    </View>
+  );
+}
+```
+
+**Style in Native**
+1. Internal
+2. External
+3. Inline
+_(Properties in the line)_
