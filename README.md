@@ -47,3 +47,30 @@ export default function App() {
   );
 }
 ```
+![image](https://user-images.githubusercontent.com/88712571/230965748-0b0a76db-44fb-46d9-a4bc-808434f4ae78.png)
+
+
+  **Branch - Components - Functions with capital name (Code reusable)**
+
+
+1. _Function Based_
+2. _Class Based_
+
+  **Check Branch - Components **
+  
+![image](https://user-images.githubusercontent.com/88712571/231077887-e5c0c48d-40da-4c71-aa64-6a3cf423db47.png)
+
+  **Branch - States - Functions with capital name (Code reusable)**
+1. _Making Button and Calling a function on onPress()_
+
+ ` <Button title ='Press Here' onPress={()=>{button("Hello")}}></Button>`
+ ```
+ const button = (val)=>{
+  console.warn(val);
+}
+```
+Output :
+![image](https://user-images.githubusercontent.com/88712571/231078913-7104aa0c-5838-4b72-b41a-17e701b17e30.png)
+
+  **Branch - States - SetState vs Variables - See app.js in States**
+  
