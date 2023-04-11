@@ -75,4 +75,7 @@ Output :
 
   **Branch - States - SetState vs Variables - See app.js in States**
   
+![image](https://user-images.githubusercontent.com/88712571/231215973-68d2e778-5bbd-4f46-92d2-62a56bb425a8.png)
+![image](https://user-images.githubusercontent.com/88712571/231216012-85070499-5c3f-4c16-a5d2-e6eb320d82df.png)
+![image](https://user-images.githubusercontent.com/88712571/231216070-eed84c3b-21e8-4f26-a426-1f5469084df8.png)
 
