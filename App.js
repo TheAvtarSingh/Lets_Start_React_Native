@@ -1,37 +1,36 @@
 import React, { useState } from "react";
 import { View,Button,Text,StyleSheet  } from "react-native";
+import newStyle from "./style";
 const App = () =>{
-// State
-  const [name,setName] = useState("Avtar");
-// Variable
-/* let data = "Sam";
-  function testName() {
-    data = "Singh";
-    // it will not update
-    // it will not render again
-    setName("Singh")
-    // name will be get updated
-  } */
-
-
-  return (
+const [name,setName] = useState("Avtar");
+return (
     <View>
-      <Text style={styles.textBox}>{name}</Text>
-      {/* <Text>{data}</Text> */}
+      {/* InLine */}
+      <Text style={ {color:'blue',
+    fontSize: 35}}>Inline Styling</Text>
+    {/* Internal */}
+      <Text style={styles.textBox}>Internal Styling : {name}</Text>
+      {/* External */}
+      <Text style={newStyle.textBox}>External Styling : {name}</Text>
+      {/* All At Once */}
+      <Text style={[newStyle.textBox,styles.textBox,{color:"White"}]}>External Styling : {name}</Text>
       <Button title="Update Name" onPress={()=>setName("Singh")}></Button>
       <Details name={name}></Details>
     </View>
   )
 }
-
+// Internal Styling
 const styles  = StyleSheet.create({
   textBox:{
-    color:'blue',
-    fontSize: 30
+    color:'red',
+    fontSize: 25,
+    backgroundColor:"yellow",
+    borderColor:"Black",
+    borderWidth:2,
+    width:100,
+    borderRadius:10,
   }
 })
-
-
 const Details = (props)=>{
   return (
     <View>
@@ -39,6 +38,4 @@ const Details = (props)=>{
     </View>
   );
 }
-// States vs Variable - 1. State Render Component when we refresh
-// 2. In Variable 
 export default App;
