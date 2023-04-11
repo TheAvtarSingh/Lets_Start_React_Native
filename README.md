@@ -72,3 +72,7 @@ export default function App() {
 Output :
 ![image](https://user-images.githubusercontent.com/88712571/231078913-7104aa0c-5838-4b72-b41a-17e701b17e30.png)
 
+
+  **Branch - States - SetState vs Variables - See app.js in States**
+  
+
